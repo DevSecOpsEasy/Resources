@@ -30,6 +30,16 @@
     
     <build>
         <plugins>
+		<distributionManagement>
+		    <snapshotRepository>
+		        <id>nexusRepo</id>
+		        <url>http://34.235.130.245:8081/repository/DevOpsEasy-Release/</url>
+		    </snapshotRepository>
+		    <repository>
+		        <id>nexusRepo</id>
+		        <url>http://34.235.130.245:8081/repository/DevSecOpsEasy-Snapshot/</url>
+		    </repository>
+		</distributionManagement>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -42,15 +52,6 @@
     </build>
 </project>
 
-<distributionManagement>
-    <snapshotRepository>
-        <id>nexusRepo</id>
-        <url>http://34.235.130.245:8081/repository/DevOpsEasy-Release/</url>
-    </snapshotRepository>
-    <repository>
-        <id>nexusRepo</id>
-        <url>http://34.235.130.245:8081/repository/DevSecOpsEasy-Snapshot/</url>
-    </repository>
-</distributionManagement>
+
 
 
