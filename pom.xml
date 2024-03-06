@@ -18,14 +18,14 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://54.236.16.181:8081/repository/batch12-snapshots/</url>
+		    <url>http://50.19.62.4:8081/repository/DevSecOpsEasy-Snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://54.236.16.181:8081/repository/batch12-release/</url>
+		    <url>http://50.19.62.4:8081/repository/DevSecOpsEasy/</url>
 		</repository>
-  	</distributionManagement>
+  	</distributionManagement> 
 	
     
     <build>
